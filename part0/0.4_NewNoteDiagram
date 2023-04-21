@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 
     note right of browser:  The browser will send the user input to the server
@@ -21,3 +22,4 @@ sequenceDiagram
     server-->>-browser: [{content: "note_42", date: "2023-04-21T15:44:13.050Z"}, ... ]
 
     Note right of browser: The browser executes the callback function that renders the notes
+```
