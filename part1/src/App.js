@@ -1,3 +1,15 @@
+// const Hello = function(props){
+//   return (
+//     <div>
+//       <p>Hello {props.name}</p>
+//     </div>
+//   )
+// }
+const Hello = props => (
+  <div>
+    <p>Hello {props.name}</p>
+  </div>
+)
 const App = () => {
   const now = new Date()
   const a = 10
@@ -9,6 +21,9 @@ const App = () => {
       <p>
         {a} plus {b} is {a+b}
       </p>
+      <br />
+      <Hello name='George' />
+      <Hello name='Daisy' />
 
     </div>
 )}
